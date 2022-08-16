@@ -1,0 +1,95 @@
+* { margin:0; padding:0; }
+.container { padding: 10px; }
+.centered {text-align: center;}
+.margined {margin-top:20px; margin-bottom:20px;}
+.link {
+  display: block;
+  font-size: large;
+  margin-top: 10px;
+}
+.linkBtn {
+  width:80px;
+  text-align: center;
+  padding:10px;
+  text-decoration: none;
+  background-color: #555;
+  color: white;
+  border-radius: 4px;
+}
+.linkBtn:hover {
+  background-color: #222;
+}
+.blackBorder {
+  border: 1px solid black;
+}
+.card {
+  box-shadow: 4px 4px 0 0 grey;
+  border: 1px solid #222;
+  border-radius: 4px;
+  padding:10px 5px;
+  height: fit-content;
+  width: fit-content;
+  text-align: center;
+}
+.width10per{
+  margin-right: 5px;
+  margin-bottom: 5px;
+  width:10%;
+}
+.flexedContainer {
+  border: 1px solid black;
+  display: flex;
+  padding: 25px 15px;
+  height: 50vh;
+}
+.selections {
+  padding:5px;
+  font-size: 20px;
+}
+.flexed {
+  display: flex;
+}
+.alignmentControl {
+  text-align: center;
+  padding-top: 20px;
+  width:50%;
+}
+
+
+/* FLEX SETTINGS */
+
+.rowReverse    { flex-direction: row-reverse; }
+.row           { flex-direction: row; }
+.column        { flex-direction: column; }
+.columnReverse { flex-direction: column-reverse; }
+
+.justifyContentBaseline     {  justify-content: baseline; }
+.justifyContentCenter       { justify-content: center; }
+.justifyContentEnd          { justify-content: end; }
+.justifyContentFlexEnd      { justify-content: flex-end; }
+.justifyContentFlexStart    { justify-content: flex-start; }
+.justifyContentLeft         { justify-content: left; }
+.justifyContentRight        { justify-content: right; }
+.justifyContentSpaceAround  { justify-content: space-around; }
+.justifyContentSpaceBetween { justify-content: space-between; }
+.justifyContentSpaceEvenly  { justify-content: space-evenly; }
+.justifyContentStart        { justify-content: start; }
+.justifyContentStretch      { justify-content: stretch; }
+
+.alignItemsBaseline  {  align-items: baseline; }
+.alignItemsCenter    { align-items: center; }
+.alignItemsFlexEnd   { align-items: flex-end; }
+.alignItemsFlexStart { align-items: flex-start; }
+.alignItemsStretch   { align-items: stretch; }
+
+.flexWrapNowrap  { flex-wrap: nowrap; }
+.flexWrapWrap    { flex-wrap: wrap; }
+.flexWrapReverse { flex-wrap: wrap-reverse; }
+
+.flexBasis20percent { flex-basis: 20%; }
+.flexBasis25percent { flex-basis: 25%; }
+.flexBasis33percent { flex-basis: 33%; }
+.flexBasis50percent { flex-basis: 50%; }
+
+
+/* GRID SETTINGS */
