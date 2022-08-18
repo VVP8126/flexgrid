@@ -7,6 +7,7 @@
   font-size: large;
   margin-top: 10px;
 }
+.centeredBtn { display:block; margin:0 auto; padding:8px 10px; }
 .linkBtn {
   width:80px;
   text-align: center;
@@ -93,3 +94,48 @@
 
 
 /* GRID SETTINGS */
+.grid-container { padding:10px; display:grid; }
+.gridItem       { padding:10px; border: 1px solid black; }
+.pointer        { cursor:pointer; }
+.gridControlProcents {
+  text-align: center;
+  padding:10px;
+  display:grid;
+  grid-template-columns: 25% 25% 25% 25%; 
+}
+.gridControlFractions {
+  text-align: center;
+  padding:10px;
+  display:grid;
+  grid-template-columns: repeat(3, 1fr) ; /*Or so:  1fr 1fr 1fr*/ 
+}
+.gridControlTwoFractions {
+  text-align: center;
+  padding:10px;
+  display:grid;
+  grid-template-columns: 250px 1fr; 
+}
+.columnGapSmall  { grid-gap: 5px;  }
+.columnGapMedium { grid-gap: 15px; }
+.columnGapLarge  { grid-gap: 25px; }
+
+.gridAutoRowsAuto { grid-auto-rows: auto; }
+.gridAutoRowsMin  { grid-auto-rows: 100px; }
+.gridAutoRowsMax  { grid-auto-rows: 300px; }
+
+.gridAlignItemsStart   { align-items:flex-start; }
+.gridAlignItemsEnd     { align-items:flex-end; }
+.gridAlignItemsCenter  { align-items:center; }
+.gridAlignItemsStretch { align-items:stretch; }
+
+.itemlayout {
+  grid-column: 1/3;
+  grid-row: 1;
+}
+
+.gridTemplateAreas1 { grid-template-areas: "header header" "sidebar content";  }
+.gridTemplateAreas2 { grid-template-areas: "sidebar sidebar" "header content"; }
+.gridTemplateAreas3 { grid-template-areas: "content content" "sidebar header"; }
+.header   { grid-area: header;  }
+.content  { grid-area: content; }
+.sidebar  { grid-area: sidebar; }
