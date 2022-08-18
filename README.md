@@ -5,8 +5,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 https://www.youtube.com/watch?v=eVZEwEQg4pg - about flex
 https://www.youtube.com/watch?v=MEOR2b69Pl4 - about grid
 
-##Some kind of game on flex:
+## Some kind of game on flex:
 http://flexboxfroggy.com/
+
+## Some kind of game on grid:
+http://cssgridgarden.com/
 
 ## Available Scripts
 In the project directory, you can run:
